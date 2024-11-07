@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 
-@Entity(name = "Task")
+@Entity
 @Data // use lombok to reduce boilerplate code (setter/getter)
 public class Task {
 
@@ -13,4 +13,6 @@ public class Task {
     private Long id;
     private String title;
     private boolean completed;
+
+
 }
