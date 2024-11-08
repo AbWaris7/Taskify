@@ -1,5 +1,4 @@
 package repository;
-
 import model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 
